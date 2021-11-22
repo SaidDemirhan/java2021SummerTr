@@ -1,0 +1,69 @@
+INTERFACE
+
+// interface asla bir class degildir 
+
+1- interface yapilarda method body si olamaz
+yani concrete method olmaz sadece abstract methodlar(body siz) olusturulabilir.
+
+2- Java muttiple inheritance desteklemez(tek baba). 
+Ancak interface parentler multiple inheritance i destekler.
+
+3- birden fazla parent class llarda ayni isimli methodlarin olmasi durumunda 
+child class ayni isimli farkli body li methodlar icin secim yapamaz
+fakat interface lerde method larin body leri olmadigi icin ayni isimli methodlar
+ birbiriyle tamamen ayni oldugu icin secim söz konusu degildir. zeten body yoktur.
+ child class parent inheritance lardan ayni isimli methodlardan birini override
+ ederek problem olmadan sorun cözülür.
+ 
+ ayni isimli fakat farkli return type sahip methodlar hata cte verir
+ 
+ 
+4 interface yapilar zaten abstract yapilar oldugu icin abastract keywordu
+kullanilmayabilir.
+
+public abstract void koltuk();
+public void ayna(); gibi
+5- interface deki tum member lar public oldugu icin AccsesModifier yazilmasa da 
+aynidir.
+public void ayna();
+void ayna();
+
+normal class larda accmod yazilmazsa default degerini alir 
+ancak interface lerde AccMod yazilmazsa public olur.
+
+6- interface'ler kendi arasinda parent child iliskisi kurabilir
+
+interface yi bir class a parent yapmak icin "implements"
+class i bir classa parent yapmak icin "extends"
+keyword lari kullanilir
+
+
+class - class			extends
+class - interface		extends
+interface - interface	implement
+interface - class		OLAMAZ interface nin parent i class OLAMAZ!!!
+
+7 bir variable create etmek istersek mutlaka final olur.
+initialize etmeden kabul etmez. cte verir
+final her zaman initialize edilmelidir.
+
+8- interface variable lar mutlaka static tir.
+dolayisiyla obj creat etmeden class ismiyle ulaasilabilir.
+
+9 interface lerde tum uyeler public dir.
+dolayisiyla variabel lar >public+static+final
+*** yazsan da yazmasanda
+
+10- Interface yapilarda istenirse abstract olmayan concrete method
+create edilebilir. bunun icin;
+-accmod dan sonra default veya static keyword kullanilmali
+- interface yapilarda concrete method icin kullanilan default 
+keywordu kesinlikle accMod türünü vermez!
+-interface yapilarda concrete method child tarafindan override 
+edilmek zorunda degildir.(zaten body si var)
+- interface yapilarda default olarak create edilen concrete method child
+class a ancak objeyle call edilir.
+-interface yapilarda static olarak create edilen cocrete method child class a 
+ancak data type ile yani inteerface ismiyle call edilebilir.
+
+

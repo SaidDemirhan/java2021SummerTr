@@ -1,0 +1,27 @@
+Abstact Classes
+
+1 parent class taki body siz methodlara denir
+bazi child parent iliskisindeki claslarda child 
+parentin bazi methodlarini kullanmak zorundaysa 
+o methodlar abs hale getirilir.
+***abstact classta obje olusturulamaz
+
+2 bir methodu abstact yapmak icin body silinir ve
+return type tan önce abstract keyword yazilir
+
+3 abstact bir method abstact bir class ta olustrulur.
+concrete clas ta asla abstract bir method create edilemez
+
+4 Abstract bir class ta hem abstract hem de concrete bir method olabilir
+
+5 concte cls abstrc clas a extends edildiginde abstract clastakiki 
+tüm ast methodlari iplement(uyarlama) etmek zorundadr
+ama concrete methodlari implement etmeyebilir.
+
+6 bir abs cls baska bir clasa extends edildiginde herhangi bir methodu 
+override etmek zorunda degildir.
+cunku java ya göre abstaract child clasinn altinda mutlaka bir cocrere child clas vardir
+
+7 final private static methodlar abstract olamaz
+
+8 abstarct clas icinde concrete variable olabilir ama asla abstract olamaz
