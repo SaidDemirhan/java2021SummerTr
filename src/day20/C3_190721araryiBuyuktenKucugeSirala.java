@@ -2,7 +2,7 @@ package day20;
 
 import java.util.Arrays;
 
-public class C3_190721araryiBuyuktenKücügeSirala {
+public class C3_190721araryiBuyuktenKucugeSirala {
 
 	public static void main(String[] args) {
 		// Verilen array i buyukten kucuge siraayan bir method yaziniz.
@@ -28,7 +28,7 @@ public class C3_190721araryiBuyuktenKücügeSirala {
 	}
 
 	private static int[] arrayiSirala(int[] arr) {
-		// öncelikle kücukten buyuge siralamaliyiz.
+		// ï¿½ncelikle kï¿½cukten buyuge siralamaliyiz.
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
 

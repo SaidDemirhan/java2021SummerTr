@@ -14,7 +14,7 @@ public class C4_120721 {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Lütfen adinizi  giriniz: ");
+		System.out.println("Lï¿½tfen adinizi  giriniz: ");
 
 		
 		
@@ -24,24 +24,24 @@ public class C4_120721 {
 
 		musteriIsmi=ismiDuzelt(musteriIsmi);
 		
-		System.out.println("Lütfen soyadinizi giriniz: ");
+		System.out.println("Lï¿½tfen soyadinizi giriniz: ");
 		
 		String musteriSoyismi=scan.next();
 		
 		musteriSoyismi=ismiDuzelt(musteriSoyismi);
 		
-		System.out.println("Lütfen kredikarti numaranizi bosluksuz giriniz: ");
+		System.out.println("Lï¿½tfen kredikarti numaranizi bosluksuz giriniz: ");
 		
 		String kkNo=scan.next();
 		
-		kkNo=kkNoDüzelt(kkNo);
+		kkNo=kkNoDuzelt(kkNo);
 		
 		//syso buraya yaz!
 		
 		scan.close();
 	}
 
-	public static String kkNoDüzelt(String kkNo) {
+	public static String kkNoDuzelt(String kkNo) {
 		kkNo=kkNo.replace(" ", "");
 		kkNo=kkNo.substring(0,4)+" "+kkNo.substring(4,8)+" "+kkNo.substring(8,12)+" "+kkNo.substring(12,16);
 		return kkNo;

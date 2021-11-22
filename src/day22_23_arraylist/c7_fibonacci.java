@@ -2,6 +2,8 @@ package day22_23_arraylist;
 
 import com.sun.tools.javac.util.List;
 
+import java.util.ArrayList;
+
 public class c7_fibonacci {
 
 	public static void main(String[] args) {
@@ -18,9 +20,9 @@ public class c7_fibonacci {
 			sayi2=sayi3;
 			sayi3=sayi2+sayi3;
 					
-			if (sayi3>x100) {
+			if (sayi3>100) {
 				istenenSayilar.add(sayi3);
-				count++
+				count++;
 			}
 			
 			

@@ -7,9 +7,9 @@ public class C01_PassByValue01 {
 
 	public static void main(String[] args) {
 		/*
-		 * elemanlarini artirmayi deneyelim - 1. Method’da elemanlari for each loop
-		 * kullanarak artirin - 2. Method’da elemanlari set method’u kullanarak artirin
-		 * - Method’lari arka arkaya cagirip artislarin kalici olup olmadiklarini
+		 * elemanlarini artirmayi deneyelim - 1. Methodï¿½da elemanlari for each loop
+		 * kullanarak artirin - 2. Methodï¿½da elemanlari set methodï¿½u kullanarak artirin
+		 * - Methodï¿½lari arka arkaya cagirip artislarin kalici olup olmadiklarini
 		 * kontrol edelim.
 		 */
 
@@ -71,4 +71,4 @@ public class C01_PassByValue01 {
 	
 	
 
-}
+
