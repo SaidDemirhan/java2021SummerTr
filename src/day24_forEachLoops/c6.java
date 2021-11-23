@@ -10,7 +10,7 @@ public class c6 {
 	
 	public String isim="Yildiz Tekstil";
 	public String telefon="31265895470";
-	publicint isciSayisi=40;
+	public int isciSayisi=40;
 	
 	
 	

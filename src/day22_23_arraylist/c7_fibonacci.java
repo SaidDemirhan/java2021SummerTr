@@ -4,6 +4,7 @@ import com.sun.tools.javac.util.List;
 
 import java.util.ArrayList;
 
+
 public class c7_fibonacci {
 
 	public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class c7_fibonacci {
 		
 		int count=0;
 		
-		List<Integer>istenenSayilar=new ArrayList<>();
+		ArrayList<Integer>istenenSayilar=new ArrayList<>();
 		
 		do {
 			sayi1=sayi2;
